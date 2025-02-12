@@ -2,9 +2,9 @@ from Sort import execution_time_gathering
 
 
 if __name__ == "__main__":
-    minimum_size = 100
-    maximum_size = 500
-    step = 50
+    minimum_size = 10000
+    maximum_size = 10100
+    step = 1000
     samples_by_size = 10
 
     table = execution_time_gathering.take_execution_time(
