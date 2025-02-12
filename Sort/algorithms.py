@@ -96,7 +96,7 @@ def quick_sort(arr):
 # O(quick_sort) = O(n * log(n))
 
 
-# n is the size of arr
+# n is the size of arr k is the maximum value in arr
 def counting_sort(arr):
 
     if len(arr) == 0:
