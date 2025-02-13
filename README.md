@@ -53,6 +53,8 @@ Useful for sorting numbers within a **known and non-negative range**. Counts the
 ## Performance Analysis
 The algorithms were implemented in Python, and execution times were measured for different dataset sizes.
 
+***Please refer to the 'SortingAlgorithms.pdf' file for a detailed analysis of the results.***
+
 ### Key Observations
 - **Bubble Sort and Insertion Sort** perform poorly for large lists due to O(n²) complexity.
 - **Merge Sort and Quick Sort** perform better for large datasets with O(n log n) complexity.
@@ -66,8 +68,25 @@ The algorithms were implemented in Python, and execution times were measured for
 4. **Counting Sort is effective** only if the maximum value is not significantly larger than the dataset size.
 5. Understanding **computational complexity** helps in choosing the right algorithm for each case.
 
+## Coverage
+
+```
+Name                          Stmts   Miss  Cover   Missing
+-----------------------------------------------------------
+Sort\__init__.py                  0      0   100%
+Sort\algorithms.py               59      2    97%   68-69
+Sort\constants.py                 2      0   100%
+Sort\data_generator.py            4      0   100%
+test\__init__.py                  0      0   100%
+test\test_algorithms.py          32      1    97%   53
+test\test_data_generator.py      25      1    96%   32
+-----------------------------------------------------------
+TOTAL                           122      4    97%
+
+```
+
 ## Repository
 This repository contains:
 - **Python implementations** of all sorting algorithms.
 - **Performance analysis scripts**.
-- **Graphs and comparisons**.
+- **Graphs and comparisons in SortingAlgorithms.pdf**.
